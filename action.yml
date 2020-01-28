@@ -1,6 +1,6 @@
 name: 'Create the version string'
 author: 'Sander Saares'
-description: 'Generates a version string of the form [branch-]1.2.3-NNNNNNNNNNN-CCCCCCC, where N is an incrementing value and C identifies the commit, with an optional branch prefix. Fields lengths are unspecified and may increase in future versions.'
+description: 'Generates a version string of the form [branch-]1.2.3-timestamp-commit.'
 inputs:
   assemblyInfoPath:
     description: 'Path to a .NET style AssemblyInfo file containing the numeric version component.'

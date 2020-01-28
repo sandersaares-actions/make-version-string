@@ -1,4 +1,6 @@
-Generates a useful version string of the form `1.2.3-timestamp-sha`, with an optional branch prefix.
+Generates a useful version string of the form `1.2.3-timestamp-commit`, with an optional branch prefix.
+
+The timestamp is alphanumerically sortable to ensure a stable sort order by version string age (if prefix is equal).
 
 # Example workflow
 
