@@ -26,7 +26,7 @@ jobs:
 
 # Mandatory parameters
 
-`assemblyInfoPath` is path to a .NET style AssemblyInfo file that contains an `AssemblyVersion` attribute with a value in the `1.2.3` format.
+`assemblyInfoPath` is path to a .NET style AssemblyInfo file that contains an `AssemblyVersion` attribute with a value in the `1.2.3` format. This does not mean it needs to be a .NET project, just the AssemblyVersion attribute need to be present (could be in a random text file).
 
 # Optional parameters
 
